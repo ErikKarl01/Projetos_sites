@@ -1,0 +1,68 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    background-image: url('plano\ de\ fundo\ 2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    padding: 100px;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 50px;
+    background-color: #692c10;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: black;
+    align-items: center;
+}
+
+.square:hover {
+    background-color: #0056b3;
+}
+
+.container2 {
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.603); /* Fundo branco com transparência */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.notification-block h2 {
+    margin-top: 0;
+}
+
+.notification-block p {
+    margin-bottom: 0;
+}
+
+.container3 {
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20;
+    margin-top: auto;
+}
+
+.Informações\e\contatos {
+    font-size: medium;
+    color: black;
+}
